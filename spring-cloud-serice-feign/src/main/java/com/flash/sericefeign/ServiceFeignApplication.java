@@ -6,6 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
+
+/**
+ * 服务消费者
+ */
 @EnableDiscoveryClient
 @EnableFeignClients
 @SpringBootApplication
