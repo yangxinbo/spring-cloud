@@ -19,6 +19,7 @@
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-service-hi</module>
         <module>spring-cloud-serice-feign</module>
+        <module>spring-cloud-consumer-feign-hystrix</module>
     </modules>
 
     <properties>
@@ -26,6 +27,13 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
@@ -38,6 +46,8 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+
 
     <build>
         <plugins>

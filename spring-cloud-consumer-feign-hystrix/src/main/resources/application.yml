@@ -1,9 +1,13 @@
 
 server:
-  port: 8200
+  port: 8201
 spring:
   application:
-    name: spring-cloud-service-feign
+    name: spring-cloud-consumer-feign-hystrix
+
+feign:
+  hystrix:
+    enabled: true
 
 eureka:
   client:
