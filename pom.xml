@@ -22,6 +22,8 @@
         <module>spring-cloud-consumer-feign-hystrix</module>
         <module>spring-cloud-zuul</module>
         <module>spring-cloud-config</module>
+        <module>spring-cloud-service1</module>
+        <module>spring-cloud-service2</module>
     </modules>
 
     <properties>
@@ -52,7 +54,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
 
     <build>

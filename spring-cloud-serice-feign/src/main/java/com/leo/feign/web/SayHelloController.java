@@ -1,7 +1,7 @@
-package com.flash.sericefeign.controller;
+package com.leo.feign.web;
 
 
-import com.flash.sericefeign.service.SchedualServiceHi;
+import com.leo.feign.service.SchedualServiceHi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

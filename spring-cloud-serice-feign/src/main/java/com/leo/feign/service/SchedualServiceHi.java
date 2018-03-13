@@ -1,4 +1,4 @@
-package com.flash.sericefeign.service;
+package com.leo.feign.service;
 
 
 import org.springframework.cloud.netflix.feign.FeignClient;
