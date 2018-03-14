@@ -1,6 +1,9 @@
 package com.leo.feign.remote;
 
+import com.leo.feign.entity.User;
+import feign.Headers;
 import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -20,4 +23,7 @@ public interface Service1Remote {
 
     @RequestMapping(value = "/service1", method = RequestMethod.GET)
     String service(@RequestParam(value = "name") String name);
+
+    @RequestMapping(value = "/service1User")
+    String service1User(@RequestBody User user);
 }
